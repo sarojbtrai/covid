@@ -47,23 +47,21 @@ h2 {
   padding: 16px;
   text-align: center;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 1px;
-   table-layout: 100%;
-  border: 1px solid #ddd;
- 
-}
-
-th, td {
-  text-align: center;
-  padding: 15px 50px 15px 50px; 
-   
-}
-
-tr:nth-child(even){background-color: #242121}
-p {
-  font-size: 2vmin;
+  /* table */
+@media screen and (max-width: 600px) {
+  table thead {
+    display: none;
+  }
+  table td {
+    display: flex;
+  }
+  
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
 }
 </style>
 <body class="w3-black">
