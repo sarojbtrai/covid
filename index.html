@@ -50,7 +50,7 @@ h2 {
 table {
   border-collapse: collapse;
   border-spacing: 1px;
-   table-layout:fixed;
+   table-layout: 100%;
   border: 1px solid #ddd;
  
 }
@@ -58,7 +58,9 @@ table {
 th, td {
   text-align: center;
   padding: 15px 50px 15px 50px;
-
+  overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
 }
 
 tr:nth-child(even){background-color: #242121}
