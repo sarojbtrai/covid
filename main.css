@@ -55,8 +55,8 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 4px;
   text-align: center;
-  border: 5px solid #63656B;
-  border-radius: 10px;
+  border: 1px solid #f54251;
+  border-radius: 4px;
   background-color: #D6F9F7;
 }
 .carda {
