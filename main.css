@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #050404;
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+  text-color: #2ECAF3;
+  background: black;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+   line-height: 50%
+}
+h2 {
+  text-align: center;
+  color: #2ECAF3;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 4px;
+  text-align: center;
+  border: 5px solid #63656B;
+  border-radius: 10px;
+  background-color: #D6F9F7;
+}
+.carda {
+  background-color: #F9F95F;
+}
+.cardb {
+  background-color: #9BFA8A;
+}
+.cardc {
+  background-color: #FDA3A6;
+}
+
+/** table **/
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  width: 90%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 4em 0;
+}
+
+.container td, .container th {
+	  padding-bottom: 1%;
+	  padding-top: 1%;
+ padding-left: 1%;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #FB667A; }
