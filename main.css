@@ -16,13 +16,44 @@ body {
 h1 {
   text-align: center;
   color: black;
-  font-size: 2em;
+  font-size: 3vw;
    line-height: 50%
 }
-h2 {
+
+@media screen and (max-width: 500px) { h1 {
   text-align: center;
-  color: #2ECAF3;
+  color: black;
+  font-size: 6vw;
+   line-height: 50%
+} }
+
+h2 {
+ text-align: center;
+  color: black;
+  font-size: 6vw;
+   line-height: 50%
 }
+
+@media screen and (max-width: 500px) { h2 {
+  text-align: center;
+  color: black;
+  font-size: 12vw;
+   line-height: 50%
+} }
+
+h3 {
+ text-align: center;
+  color: black;
+  font-size: 2vw;
+   line-height: 50%
+}
+@media screen and (max-width: 500px) { h3 {
+  text-align: center;
+  color: black;
+  font-size: 4vw;
+   line-height: 50%
+} }
+
 /* Float four columns side by side */
 .column {
   float: left;
@@ -97,6 +128,7 @@ h2 {
 	  padding-bottom: 1%;
 	  padding-top: 1%;
  padding-left: 3%;
+ padding-right: 3%;
 }
 
 /* Background-color of the odd rows */
