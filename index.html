@@ -1,202 +1,132 @@
 <!DOCTYPE html>
 <html>
-<title>Coronavirus update Nepal</title>
-<meta charset="UTF-8">
+<head>
+<title>नेपालमा कोभिड-१९ रोगको स्थिति</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
 
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-  
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
+<div class="content">
+<center><h2 style="color:white;font-size:5vw;">कोेभिड - १९ स्थिति</h2></center>
 
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-  
-
-  /* table */
-
-  table {
-  width:100%;
-     font-size:3rem;
-    
-}
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-  
-
-th, td {
-  padding: 5px;
-  text-align: center;
-  
-}
-  th {
-  background-color: darkslategrey;
-  color: white;
-}
-  
-table tr:nth-child(even) td {
-    background: DimGray;
-}
-table tr:nth-child(odd) td {
-    background: Gray;
-}
-
-@media screen and (max-width: 600px) {
-.column {
-    width: 50%;
-    display: block;
-    margin-bottom: 10px;
-  }
-}
-  table {
-  width:100%;
-    font-size:1.5rem;
-}
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 5px;
-  text-align: center;
-}
-  th {
-  background-color: darkslategrey;
-  color: white;
-}
-  
-  
-</style>
-<body class="w3-black">
-
-<!-- Page Content -->
-<div class="w3-padding-medium" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo">कोेभिड-१९ स्थिति</h1> 
-    
-    <div class="row">
+<div class="row">
   <div class="column">
-    <div class="card w3-hover-shadow w3-padding-32 w3-gray">
-     <div class="w3-container"> <h3>संक्रमित</h3> </div>  <footer class="w3-container w3-lime"> <h1>२४३</h1> </footer>
+    <div class="card">
+      <h1 style="color:black;font-size:5vw;">२६७</h1>
+      <h1 style="color:black;font-size:3vw;">संक्रमित</h1>
     </div>
   </div>
 
-      <div class="column">
-    <div class="card w3-hover-shadow w3-padding-32 w3-yellow">
-      <div class="w3-container"> <h3>सक्रीय</h3> </div>  <footer class="w3-container w3-cyan"> <h1>२०८</h1> </footer>
-   
-    </div>
-  </div>
-      
   <div class="column">
-    <div class="card w3-hover-shadow w3-padding-32 w3-green">
-      <div class="w3-container"> <h3>निको भएका</h3> </div>  <footer class="w3-container w3-cyan"> <h1>३५</h1> </footer>
-   
+    <div class="card carda">
+      <h1 style="color:black;font-size:5vw;">२३१</h1>
+      <h1 style="color:black;font-size:3vw;">सक्रिय</h1>
     </div>
   </div>
   
   <div class="column">
-    <div class="card w3-hover-shadow w3-padding-32 w3-red">
-      <div class="w3-container"> <h3>मृत्यु</h3> </div>  <footer class="w3-container w3-lime"> <h1>०</h1> </footer>
+    <div class="card cardb">
+     <h1 style="color:black;font-size:5vw;">३६</h1>
+      <h1 style="color:black;font-size:3vw;">निको&nbspभएका</h1>
     </div>
   </div>
-      
-   
-&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <div class="column">
+    <div class="card cardc">
+      <h1 style="color:black;font-size:5vw;">०</h1>
+      <h1 style="color:black;font-size:3vw;">मृत्यु </h1>
+    </div>
+  </div></div>
+  <br><br><br><br>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h1 class="w3-text-light-grey">जिल्लागत विवरण</h1>
-    <div>
-  <table class="w3-table-all w3-centered w3-card-4 ">
+<center><h1>जिल्लागत विवरण </h1></center>
+
+
+<table class="container">
+	<thead>
+		<tr>
+			<th><h1 style="color:white;font-size:3vw;">जिल्ला</h1></th>
+			<th><h1 style="color:white;font-size:3vw;">संक्रमित</h1></th>
+			<th><h1 style="color:white;font-size:3vw;">सक्रिय</h1></th>
+			<th><h1 style="color:white;font-size:3vw;">निको&nbspभएका</h1></th>
+			<th><h1 style="color:white;font-size:3vw;">मृत्यु &nbsp;</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">पर्सा</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">८९</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">८६</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		<tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">कपिलवस्तु</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">३९</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">३९</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">०</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		   <tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">बाँके</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">३३</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">३३</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">०</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		<tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">उदयपुर</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">३३</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">२८</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">१५</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
     <tr>
-      <th>जिल्ला</th>
-      <th>संक्रमित</th>
-      <th>निको भएका</th>
-    <th>मृत्यु</th>
-    </tr>
-    
-    <tr>
-      <td style="color:azure;">पर्सा</td>
-      <td style="color:yellow;">६४</td>
-      <td style="color:Chartreuse;">३</td>
-      <td style="color:tomato;">०</td>
-      
-    </tr>
-    <tr>
-      <td style="color:azure;">कपिलवस्तु</td>
-      <td style="color:yellow;">३८</td>
-      <td style="color:Chartreuse;">०</td>
-      <td style="color:tomato;">०</td></tr>
-    
+			<th><h1 style="color:#08F5EA;font-size:3vw;">रुपन्देही</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">२८</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">२७</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">१</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+
    <tr>
-      <td style="color:azure;">उदयपुर</td>
-      <td style="color:yellow;">३२</td>
-      <td style="color:Chartreuse;">१४</td>
-      <td style="color:tomato;">०</td>
-   </tr>
-    
-     <tr>
-      <td style="color:azure;">रुपन्देही</td>
-      <td style="color:yellow;">२८</td>
-      <td style="color:Chartreuse;">१</td>
-      <td style="color:tomato;">०</td>
-   </tr>
-    
-       <tr>
-      <td style="color:azure;">बाँके</td>
-      <td style="color:yellow;">२५</td>
-      <td style="color:Chartreuse;">०</td>
-      <td style="color:tomato;">०</td>
-   </tr>
-    
-       <tr>
-      <td style="color:azure;">काठमाडौं</td>
-      <td style="color:yellow;">६</td>
-      <td style="color:Chartreuse;">५</td>
-      <td style="color:tomato;">०</td>
-   </tr>
-    
-       <tr>
-      <td style="color:azure;">कैलाली</td>
-      <td style="color:yellow;">४</td>
-      <td style="color:Chartreuse;">४</td>
-      <td style="color:tomato;">०</td>
-   </tr>
-    
-          <tr>
-      <td style="color:azure;">बारा</td>
-      <td style="color:yellow;">३</td>
-      <td style="color:Chartreuse;">०</td>
-      <td style="color:tomato;">०</td>
-   </tr>
-    
-  </table>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">काठमाडौं</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">९</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">४</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">५</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		  <tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">कैलाली</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">४</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">०</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">४</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		  <tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">बारा</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">०</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		  <tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">दाङ</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">०</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+		  <tr>
+			<th><h1 style="color:#08F5EA;font-size:3vw;">धनुषा</h1></th>
+			<th><h1 style="color:#F479FA;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#F9F609;font-size:3vw;">३</h1></th>
+			<th><h1 style="color:#09DF33;font-size:3vw;">०</h1></th>
+			<th><h1 style="color:#FC5470;font-size:3vw;">०</h1></th>
+		</tr>
+	</tbody>
+</table>
 </div>
-   
- <!-- END PAGE CONTENT -->
-</div>
-
 </body>
 </html>
