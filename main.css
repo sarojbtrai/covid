@@ -133,7 +133,7 @@ h3 {
 
 /* Background-color of the odd rows */
 .container tr:nth-child(odd) {
-	  background-color: #323C50;
+	  background-color: #9E9A9B;
 }
 
 /* Background-color of the even rows */
